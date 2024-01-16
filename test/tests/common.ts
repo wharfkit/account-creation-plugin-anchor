@@ -4,9 +4,9 @@ import {Chains, SessionKit} from '@wharfkit/session'
 import {mockSessionKitArgs, mockSessionKitOptions} from '@wharfkit/mock-data'
 
 import {AccountCreator} from '../../src/account-creator'
-import {AccountCreationPluginGreymass} from '$lib'
+import {AccountCreationPluginAnchor} from '$lib'
 
-suite('AccountCreationPluginGreymass', function () {
+suite('AccountCreationPluginAnchor', function () {
     let createAccountStub
 
     setup(function () {
